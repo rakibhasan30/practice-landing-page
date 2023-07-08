@@ -20,6 +20,7 @@
   padding-top: 15%;
 }
 .banner-main-text {
+  line-height: 1;
   font-size: 4rem;
   padding-bottom: 1rem;
 }
@@ -37,4 +38,57 @@
   text-decoration: none;
   color: #00489b;
   font-weight: 800;
+}
+.middle-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+}
+.middle-text {
+  width: 400px;
+}
+.middle-text h2 {
+  font-size: 3rem;
+  line-height: 1;
+}
+.middle-text h2 span {
+  color: #00489b;
+}
+.middle-text > h2,
+p {
+  padding-bottom: 20px;
+}
+.middle-text h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 3px;
+}
+.middle-text h3 span {
+  color: #00489b;
+}
+.my-plan {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.plans {
+  margin-top: 70px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8rem;
+  text-align: center;
+}
+.plans img {
+  height: 100px;
+  width: auto;
+  margin-bottom: 20px;
+}
+.plans h4 {
+  font-size: 1rem;
+  color: gray;
+  font-weight: 400;
 }
