@@ -1,10 +1,14 @@
 /* Shared elements*/
+
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+
+/* Banner Elements*/
+
 .banner {
   height: 100dvh;
   background-image: url("../images/banner/banner3.png");
@@ -39,6 +43,9 @@
   color: #00489b;
   font-weight: 800;
 }
+
+/* Problem Statement - Middle Section*/
+
 .middle-container {
   margin-top: 80px;
   display: flex;
@@ -68,6 +75,9 @@ p {
 .middle-text h3 span {
   color: #00489b;
 }
+
+/* Goals Section*/
+
 .my-plan {
   text-align: center;
   margin-top: 150px;
@@ -75,7 +85,7 @@ p {
 
 .plans {
   margin-top: 70px;
-  margin-bottom: 70px;
+  margin-bottom: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -91,4 +101,102 @@ p {
   font-size: 1rem;
   color: gray;
   font-weight: 400;
+}
+/* Positioning Statements*/
+
+.cta {
+  border-radius: 15px;
+  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+    url(../images/watch.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 400px;
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+  text-align: left;
+}
+.cta h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-left: 75px;
+  padding-top: 90px;
+  padding-bottom: 30px;
+}
+.cta a {
+  background-color: white;
+  margin-left: 75px;
+  margin-top: 15px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Footer*/
+
+footer {
+  position: relative;
+  padding: 130px 230px;
+  margin-top: 130px;
+  background-color: #151414;
+  display: flex;
+  justify-content: space-between;
+  color: #f8f8f8;
+  height: 560px;
+}
+.footer-left {
+  width: 485px;
+}
+.footer-left h1 {
+  padding-bottom: 20px;
+}
+
+.footer-left h3 {
+  font-size: 1rem;
+  padding-bottom: 10px;
+  font-weight: 400;
+}
+.social-icons i {
+  padding-top: 20px;
+  padding-right: 10px;
+  color: #f15b22;
+}
+.social-icons a {
+  text-decoration: none;
+}
+.footer-right {
+  width: 400px;
+}
+.footer-right h1 {
+  padding-bottom: 20px;
+}
+.footer-right input {
+  width: 250px;
+  padding: 12px 10px;
+  margin-bottom: 25px;
+  background-color: transparent;
+  border: 1px solid #f15b22;
+  border-radius: 5px;
+}
+.footer-button {
+  background-color: white;
+  margin-top: 15px;
+  padding: 12px 30px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 700;
+  color: #f15b22;
+}
+/* Copyright Section*/
+.copyright {
+  position: absolute;
+  color: white;
+  text-align: center;
+  inset: 0;
+  margin: auto;
+  font-weight: 100;
+  font-size: 1rem;
+  top: 90%;
 }
