@@ -5,3 +5,36 @@
   box-sizing: border-box;
   font-family: "Work Sans", sans-serif;
 }
+.banner {
+  height: 100dvh;
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.banner-text-area {
+  padding-right: 250px;
+  float: right;
+  text-align: right;
+  width: 800px;
+  color: white;
+  padding-top: 15%;
+}
+.banner-main-text {
+  font-size: 4rem;
+  padding-bottom: 1rem;
+}
+.banner-paragraph {
+  margin-bottom: 40px;
+}
+.banner-button {
+  margin-top: 50px;
+  background-color: white;
+  padding: 12px 30px;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+.banner-button {
+  text-decoration: none;
+  color: #00489b;
+  font-weight: 800;
+}
