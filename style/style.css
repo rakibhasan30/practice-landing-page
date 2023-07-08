@@ -106,7 +106,7 @@ p {
 
 .cta {
   border-radius: 15px;
-  background: linear-gradient(90deg, #f15b22 0%, rgba(241, 91, 34, 0) 100%),
+  background: linear-gradient(90deg, #00489b 0%, rgba(241, 91, 34, 0) 100%),
     url(../images/watch.png);
   background-size: cover;
   background-repeat: no-repeat;
@@ -161,7 +161,7 @@ footer {
 .social-icons i {
   padding-top: 20px;
   padding-right: 10px;
-  color: #f15b22;
+  color: #00489b;
 }
 .social-icons a {
   text-decoration: none;
@@ -177,7 +177,7 @@ footer {
   padding: 12px 10px;
   margin-bottom: 25px;
   background-color: transparent;
-  border: 1px solid #f15b22;
+  border: 1px solid #00489b;
   border-radius: 5px;
 }
 .footer-button {
@@ -187,7 +187,7 @@ footer {
   border-radius: 5px;
   text-decoration: none;
   font-weight: 700;
-  color: #f15b22;
+  color: #00489b;
 }
 /* Copyright Section*/
 .copyright {
